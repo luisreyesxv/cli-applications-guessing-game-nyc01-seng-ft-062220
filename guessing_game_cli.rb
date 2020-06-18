@@ -1,7 +1,7 @@
 # Code your solution here!
 # Code your solution here!
 def run_guessing_game
- 
+
  computer_number = rand(1..6).to_s
  input = gets.chomp.to_s
  leave = "exit"
