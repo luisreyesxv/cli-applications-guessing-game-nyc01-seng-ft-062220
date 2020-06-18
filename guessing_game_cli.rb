@@ -13,7 +13,7 @@ def run_guessing_game
   puts "Goodbye!"
  end
 end
-run_guessing_game
+
 def num_points_scored(scorer)
   #binding.pry
   players = game_hash[:home][:players].merge(game_hash[:away][:players])
